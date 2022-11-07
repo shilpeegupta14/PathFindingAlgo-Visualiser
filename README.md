@@ -21,6 +21,8 @@ By eliminating impossible paths, these algorithms can achieve time complexities 
 
 ### Dijkstra Algorithm 
 ![](https://github.com/shilpeegupta14/images/blob/main/djikstra.gif)
+
+
 Dijkstra’s algorithm tries to find the shortest path from the starting(root) node to every node, hence we can get 
 the shortest path from the starting node to the goal.
 
@@ -40,6 +42,8 @@ Pseudocode:
 
 ### A* Algorithm
 ![](https://github.com/shilpeegupta14/images/blob/main/astar.gif)
+
+
 A* is a combination of Dijkstra and Greedy. It uses distance from the root node plus heuristics distance to the goal. 
 The algorithm terminates when we find the goal node.
 
@@ -59,6 +63,8 @@ Pseudocode:
 
 ### DFS Algorithm 
 ![](https://github.com/shilpeegupta14/images/blob/main/dfs.gif)
+
+
 It starts at the root and explores one of it’s children’s sub tree, and then move to the next child’s sub tree, and so on. 
 It uses stack, or recursion to perform the DFS.
 
@@ -86,6 +92,8 @@ Iterative
 
 ### BFS Algorithm 
 ![](https://github.com/shilpeegupta14/images/blob/main/bfs.gif)
+
+
 It starts at the root and explores all of it’s children in the next level(neighbors) before moving to each of the root
 children, and then, it explores the children of the root children, and so on. The algorithm uses a queue to perform the BFS.
 
